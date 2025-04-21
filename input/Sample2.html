@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Inbox is Full!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e9ecef;
+            padding: 30px;
+        }
+        .email-wrapper {
+            max-width: 700px;
+            margin: auto;
+            background: #ffffff;
+            border: 1px solid #dcdcdc;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .email-context {
+            background-color: #fff8dc;
+            padding: 20px;
+            border-bottom: 1px solid #dcdcdc;
+            font-size: 15px;
+            line-height: 1.6;
+            color: #333;
+        }
+        .email-headers {
+            padding: 20px;
+            border-bottom: 1px solid #ccc;
+            background-color: #f7f7f7;
+        }
+        .email-headers p {
+            margin: 5px 0;
+            font-size: 14px;
+            color: #333;
+        }
+        .email-body {
+            padding: 20px;
+        }
+        .email-body p {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 15px;
+        }
+        .btn {
+            background-color: #0073e6;
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            display: inline-block;
+            margin: 20px 0;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .signature {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #333;
+            line-height: 1.5;
+        }
+        .footer {
+            padding: 20px;
+            font-size: 12px;
+            color: #888;
+            border-top: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-wrapper">
+
+        <!-- Context Section -->
+        <div class="email-context">
+            <p><strong>Context:</strong></p>
+            <p>
+                Your name is John Doe and you work for ABC Company and work at the front desk helping customers
+                with their orders. You start to receive emails stating your mailbox is low on space, and 
+                then a few days later you receive the following email message.
+            </p>
+        </div>
+
+        <!-- Email Headers -->
+        <div class="email-headers">
+            <p><strong>From:</strong> System &lt;system@ab-c.com&gt;</p>
+            <p><strong>To:</strong> John Doe &lt;johndoe@abc.com&gt;</p>
+            <p><strong>Subject:</strong> Inbox is Full!</p>
+        </div>
+
+        <!-- Email Body -->
+        <div class="email-body">
+            <p>Hello, John</p>
+            <p>Your mailbox has run out of space and you will not be able to receive anymore email messages. 
+               In order to increase the size please verify your login information to avoid any further interruptions.</p>
+            <a href="#" class="btn" onclick="return false;">Increase Now</a>
+
+            <div class="signature">
+                <p>Email System<br>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            © 2025 ABC Company All rights reserved.
+        </div>
+    </div>
+</body>
+</html>

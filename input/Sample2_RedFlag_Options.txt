@@ -1,0 +1,5 @@
+Sender, Email domain impersonation, Unknown sender, Public Email Service
+Recipient, Blank Recipient, Many Unknown Recipients, 
+Subject, Strange Formatting, Impersonation, Scare tactic
+Body, Urgency Created, Scare tactic, Misspellings, Out of Character Request, New Style of Email Format
+Signature, Impersonation, Signature is for different company, Signature formatted differently than normal

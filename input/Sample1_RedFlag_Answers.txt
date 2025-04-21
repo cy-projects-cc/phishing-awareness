@@ -1,0 +1,3 @@
+Sender, Public email service, Adversaries will use public email services like gmail to send their phishing emails. It gives them many benefits, one being they can create accounts to try and look like a legitimate email address.
+Body, Out of character request, Your manager asking you to purchase gift cards is out of character since you work to balance the ledgers.  Always verify a request if it's something you don't normally do.
+Signature, Impersonation, Adversaries will try to make phishing emails look legitimate by adding signatures with the name of someone you know.

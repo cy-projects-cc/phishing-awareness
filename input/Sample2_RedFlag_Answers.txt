@@ -1,0 +1,3 @@
+Sender, Email domain impersonation, Adversaries will create domains which look close to legitimate domains, hoping you will quickly skim the email address.
+Subject, Scare tactic, Adversaries will create subjects with attention grabbing messages, so you are more likely to open the email message.
+Body, Scare tactic, Adversaries will use scare tactics in their message to manipulate your emotions in to fearing something negative will happen.  You will then be more likely to perform the action they want.

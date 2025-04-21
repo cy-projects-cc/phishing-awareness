@@ -1,0 +1,5 @@
+Sender, Unfamiliar name, Misspelled email domain, Strange name, Public email service
+Recipient, Blank recipient, Many unknown recipients
+Subject, Strange formatting, Urgency in subject, Misspellings
+Body, Fear inducing, Misspellings, Out of character request, New style of email format
+Signature, Name does not match sender name, Misspellings, Impersonation
