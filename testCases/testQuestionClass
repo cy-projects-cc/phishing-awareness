@@ -38,3 +38,15 @@ void testDisplayFieldsPrompt() {
     q.displayFieldsPrompt(sampleEmailFields);
 
 }
+
+void testDisplayUserSelections() {
+    userSelection sampleSelections;
+    sampleSelections.body = "Fear tactic";
+    sampleSelections.signature = "Impersonation";
+
+    Question q;
+
+    cout << "- displayUserSelections function test:" << endl;
+    q.displayUserSelections(sampleSelections);
+    
+}
