@@ -1,0 +1,7 @@
+void testUtilsClasses() {
+
+    assert(numberInvalidMessage() == "This is not a valid selection, please select a valid number: ");
+    cout << "- numberInvalidMessage function test passed. " << endl;
+    cout << endl;
+
+}
