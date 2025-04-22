@@ -105,6 +105,33 @@ You correctly identified 2 out of 3 possible red flags, and you also made 1 inco
 
 If you want to display the answers press 1 or if you want to try again press 0:
 
+## Testing
+
+In the TestCases folder there are files which contain functions to test out the various functions used in the program.
+You will need to add the test functions to be above main() and then call the functions inside of main().
+
+For example this will test out the displayUserSelections function:
+
+void testDisplayUserSelections() {
+    userSelection sampleSelections;
+    sampleSelections.body = "Fear tactic";
+    sampleSelections.signature = "Impersonation";
+
+    Question q;
+
+    cout << "- displayUserSelections function test:" << endl;
+    q.displayUserSelections(sampleSelections);    
+}
+
+int main()
+{
+    string difficulty;
+    int correctCount;
+    int totalAnswers;
+    int badSelections;
+
+testDisplayUserSelections();
+
 ## Credits
 
 Created by cy-projects-cc for the final project of COMPSCI-2
