@@ -9,9 +9,8 @@ using namespace std;
 
 //function will display the error message if the user enters an invalid number when selecting
 // from the red flag options.
-void numberInvalidMessage() {
-    cout << endl;
-    cout << "This is not a valid selection, please select a valid number: " << endl;
+string numberInvalidMessage() {
+    return "This is not a valid selection, please select a valid number: ";
 }
 
 //function which gives a dealy while the sample email is opened in the users browser.
@@ -61,9 +60,9 @@ int numberValidator(string number, int min, int max) {
                 return validNumber;
             }
         }
-
-        numberInvalidMessage();
-        getline(cin, number); // ask again
+        cout << endl;
+        cout << numberInvalidMessage();
+        getline(cin, number);
     }
 }
 
