@@ -13,7 +13,9 @@ void testDisplayFunction() {
 
     Question q;
     q.display(&sampleAnswers, 3);
+}
 
+void testAnswerCount() {
     redFlagAnswers sample2Answers;
     sample2Answers.fromAnswer = "james@gmail.com";
     sample2Answers.bodyAnswer = "You have been locked out!";
@@ -21,7 +23,10 @@ void testDisplayFunction() {
     q.setAnswerCount(&sample2Answers);
     assert(q.getTotalAnswers() == 2);
     cout << "- setAnswerCount & getTotalAnswers function tests passed." << endl;
+    cout << endl;
+}
 
+void testDisplayFieldsPrompt() {
     Email sampleEmailFields;
     sampleEmailFields.from = "john@phish.com";
     sampleEmailFields.to = "you@company.com";
