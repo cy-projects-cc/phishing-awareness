@@ -1,5 +1,7 @@
-// PhishingAwarenessProgram.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+//Description: The Phishing Awareness program will help the user practice identifying red flags in phishing email messages.  
+// The program will ask the user to select from 3 difficulty levels and the user will need to analyze the sample email 
+// message before selecting red flags and the reason why the user believes the field is a red flag. 
+//Usage: This program is meant to familiarize users with identifying red flags in email messages.
 
 #define NOMINMAX  //so windows.h min max declarations don't conflict
 #include <iostream> //for input and output stream
