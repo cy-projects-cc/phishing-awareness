@@ -8,7 +8,7 @@
 
 //declaration for the function which gives an error message if 
 // a number is not a valid selection.
-void numberInvalidMessage();
+string numberInvalidMessage();
 
 //declaration for the function which will give a delay when loading
 // the sample email message in the browser.
