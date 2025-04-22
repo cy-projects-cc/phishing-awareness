@@ -4,4 +4,29 @@ void testUtilsClasses() {
     cout << "- numberInvalidMessage function test passed. " << endl;
     cout << endl;
 
+    cout << "- delay function test: " << endl;
+    delay();
+    cout << endl;
+
+    cout << "- enterToContinue function test: " << endl;
+    enterToContinue();
+    cout << endl;
+
+    cout << "- clearScreen function test: " << endl;
+    delay();
+    clearScreen();
+
+    cout << "- reasonMessage function test: " << endl;
+    reasonMessage();
+    cout << endl;
+    cout << endl;
+
+    cout << "- badCountMessage function test value of 1:" << endl;
+    badCountMessage(1);
+    cout << endl;
+
+    cout << "- badCountMessage function test value of 2:" << endl;
+    badCountMessage(2);
+    cout << endl;
+
 }
