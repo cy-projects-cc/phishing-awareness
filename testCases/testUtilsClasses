@@ -29,4 +29,12 @@ void testUtilsClasses() {
     badCountMessage(2);
     cout << endl;
 
+    assert(numberValidator("3", 1, 5) == 3);
+    cout << "- numberValidator function test passed." << endl;
+    cout << endl;
+
+    cout << "- indentDescription function test:" << endl;
+    string text = "This is a test of the indentDescription function.  This text should be indented 4 spaces and have a width of 80.  The text should wrap around when it reaches 80.";
+    indentDescription(text);
+
 }
