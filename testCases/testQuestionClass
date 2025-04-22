@@ -1,0 +1,16 @@
+void testDisplayFunction() {
+    redFlagAnswers sampleAnswers;
+    sampleAnswers.from = "james@gmail.com";
+    sampleAnswers.fromDescription = "The sender is using a public email service.";
+    sampleAnswers.to = "you@example.com";
+    sampleAnswers.toDescription = "You were not expecting this email.";
+    sampleAnswers.subject = "URGENT!";
+    sampleAnswers.subjectDescription = "The subject creates urgency to trick the user.";
+    sampleAnswers.body = "Click this link to verify your account.";
+    sampleAnswers.bodyDescription = "Phishing emails often use vague language and urgent actions.";
+    sampleAnswers.signature = "IT Department";
+    sampleAnswers.signatureDescription = "Attackers may fake signatures to look official.";
+
+    Question q;
+    q.display(&sampleAnswers, 3);
+}
