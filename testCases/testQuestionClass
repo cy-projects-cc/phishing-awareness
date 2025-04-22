@@ -22,4 +22,14 @@ void testDisplayFunction() {
     assert(q.getTotalAnswers() == 2);
     cout << "- setAnswerCount & getTotalAnswers function tests passed." << endl;
 
+    Email sampleEmailFields;
+    sampleEmailFields.from = "john@phish.com";
+    sampleEmailFields.to = "you@company.com";
+    sampleEmailFields.subject = "Your attention is needed";
+    sampleEmailFields.body = "You have won the lottery! Click the link to claim the prize.";
+    sampleEmailFields.signature = "Lottery Company";
+
+    cout << "- displayFieldsPrompt function test:" << endl;
+    q.displayFieldsPrompt(sampleEmailFields);
+
 }
