@@ -13,6 +13,7 @@
 #include <sstream> //for stringstream//
 #include <vector> //for vector to hold temporary fields from input text file//
 #include <fstream> //ifstream for reading the file of fields//
+#include <cassert> //for the test suites to use assert function
 
 using namespace std;
 
